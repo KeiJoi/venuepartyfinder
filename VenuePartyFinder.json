@@ -2,7 +2,7 @@
   "Author": "Kei Joi",
   "Name": "Venue Party Finder",
   "InternalName": "VenuePartyFinder",
-  "AssemblyVersion": "0.1.0.0",
+  "AssemblyVersion": "0.1.0.1",
   "Description": "Create and refresh FFXIV Party Finder listings from a Dalamud window.",
   "Punchline": "Mirror the PF setup screen and auto-refresh expiring listings.",
   "ApplicableVersion": "any",
