@@ -1,0 +1,30 @@
+[
+  {
+    "Author": "Kei Joi",
+    "Name": "Venue Party Finder",
+    "Punchline": "Mirror the PF setup screen and auto-refresh expiring listings.",
+    "Description": "Create and refresh FFXIV Party Finder listings from a Dalamud window.",
+    "InternalName": "VenuePartyFinder",
+    "AssemblyVersion": "0.1.0.0",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 14,
+    "IsTestingExclusive": false,
+    "RepoUrl": "https://github.com/KeiJoi/venuepartyfinder",
+    "Tags": [
+      "partyfinder",
+      "venue",
+      "listing",
+      "automation"
+    ],
+    "CategoryTags": [
+      "UI",
+      "Social",
+      "Utility"
+    ],
+    "LastUpdate": 1773700692,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/KeiJoi/venuepartyfinder/refs/heads/main/latest/VenuePartyFinder.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/KeiJoi/venuepartyfinder/refs/heads/main/latest/VenuePartyFinder.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/KeiJoi/venuepartyfinder/refs/heads/main/latest/VenuePartyFinder.zip",
+    "IconUrl": "https://raw.githubusercontent.com/KeiJoi/venuepartyfinder/refs/heads/main/latest/icon.png"
+  }
+]

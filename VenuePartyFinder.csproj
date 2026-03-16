@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="C:\Users\kyro_\.nuget\packages\dalamud.net.sdk\14.0.1\Sdk\Sdk.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <DalamudApiLevel>14</DalamudApiLevel>
+    <DalamudLibPath>C:\Users\kyro_\AppData\Roaming\XIVLauncher\addon\Hooks\14.0.4.1\</DalamudLibPath>
+    <RootNamespace>VenuePartyFinder</RootNamespace>
+    <AssemblyName>VenuePartyFinder</AssemblyName>
+    <Use_DalamudPackager>false</Use_DalamudPackager>
+    <RestoreIgnoreFailedSources>true</RestoreIgnoreFailedSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Remove="DotNet.ReproducibleBuilds" />
+    <PackageReference Remove="DalamudPackager" />
+    <Compile Remove="tools\**\*.cs" />
+    <EmbeddedResource Remove="tools\**\*" />
+    <None Remove="tools\**\*" />
+    <None Include="VenuePartyFinder.json" CopyToOutputDirectory="Always" />
+    <Reference Include="ECommons">
+      <HintPath>C:\Users\kyro_\.nuget\packages\ecommons\3.1.0.19\lib\net10.0-windows7.0\ECommons.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Import Project="C:\Users\kyro_\.nuget\packages\dalamud.net.sdk\14.0.1\Sdk\Sdk.targets" />
+</Project>

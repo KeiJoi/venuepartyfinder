@@ -1,0 +1,10 @@
+/.*/
+/.dotnet/
+/.tmpinspect/
+/bin/
+/obj/
+/object/
+/services/
+/tools/
+!/latest/
+!/latest/**
