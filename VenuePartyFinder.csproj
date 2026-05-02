@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <Import Project="C:\Users\kyro_\.nuget\packages\dalamud.net.sdk\14.0.1\Sdk\Sdk.props" />
+  <Import Project="C:\Users\kyro_\.nuget\packages\dalamud.net.sdk\14.0.2\Sdk\Sdk.props" />
 
   <PropertyGroup>
     <TargetFramework>net10.0-windows7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
-    <DalamudApiLevel>14</DalamudApiLevel>
-    <DalamudLibPath>C:\Users\kyro_\AppData\Roaming\XIVLauncher\addon\Hooks\14.0.4.1\</DalamudLibPath>
+    <DalamudApiLevel>15</DalamudApiLevel>
+    <DalamudLibPath>C:\Users\kyro_\AppData\Roaming\XIVLauncher\addon\Hooks\15.0.0.1\</DalamudLibPath>
     <RootNamespace>VenuePartyFinder</RootNamespace>
     <AssemblyName>VenuePartyFinder</AssemblyName>
     <Use_DalamudPackager>false</Use_DalamudPackager>
@@ -26,5 +26,5 @@
     </Reference>
   </ItemGroup>
 
-  <Import Project="C:\Users\kyro_\.nuget\packages\dalamud.net.sdk\14.0.1\Sdk\Sdk.targets" />
+  <Import Project="C:\Users\kyro_\.nuget\packages\dalamud.net.sdk\14.0.2\Sdk\Sdk.targets" />
 </Project>

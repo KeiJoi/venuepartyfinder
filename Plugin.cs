@@ -1,4 +1,5 @@
 using Dalamud.Game.Command;
+using Dalamud.Game.Chat;
 using Dalamud.Game.Text.SeStringHandling;
 using Dalamud.Plugin;
 using ECommons;
@@ -77,8 +78,8 @@ public sealed class Plugin : IDalamudPlugin
         this.mainWindow.Toggle();
     }
 
-    private void OnChatMessage(Dalamud.Game.Text.XivChatType type, int timestamp, ref SeString sender, ref SeString message, ref bool isHandled)
+    private void OnChatMessage(IHandleableChatMessage message)
     {
-        this.automation.HandleChatMessage(type, message.TextValue);
+        this.automation.HandleChatMessage(message.LogKind, message.Message.TextValue);
     }
 }
